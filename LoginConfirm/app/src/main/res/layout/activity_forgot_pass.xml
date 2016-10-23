@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/eve"
+    tools:context="com.seals.shubham.loginconfirm.ForgotPass">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:background="#ff151515"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="Forget Password ?"
+                android:textSize="22dp"
+                android:textColor="#ffffffff"
+                android:id="@+id/frgtMess"
+
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:inputType="textPersonName"
+                android:hint="Your Username"
+                android:padding="13dp"
+                android:ems="10"
+                android:id="@+id/frgtUsr"
+                android:background="@drawable/shape"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:id="@+id/btnBck"
+                android:background="#34dd34"
+                android:layout_below="@+id/frgtUsr"
+                android:layout_alignLeft="@+id/frgtUsr"
+                android:layout_alignStart="@+id/frgtUsr"
+                android:layout_marginTop="45dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:background="@drawable/shapred"
+                android:id="@+id/btnSubmit"
+                android:layout_alignTop="@+id/btnBck"
+                android:layout_alignRight="@+id/frgtUsr"
+                android:layout_alignEnd="@+id/frgtUsr"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Enter your Username to Reset your Password"
+                android:id="@+id/textView2"
+                android:textSize="13dp"
+                android:textColor="#99ffcd98"
+                android:layout_below="@+id/frgtMess"
+                android:layout_alignRight="@+id/frgtUsr"
+                android:layout_alignEnd="@+id/frgtUsr"
+                android:layout_marginTop="90dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SpinnerProject</string>
+    <string-array name="Cities">
+        <item >Mumbai</item>
+        <item >Delhi</item>
+        <item >Pune</item>
+        <item >Chennai</item>
+        <item >Lucknow</item>
+        <item >Noida</item>
+    </string-array>
+</resources>

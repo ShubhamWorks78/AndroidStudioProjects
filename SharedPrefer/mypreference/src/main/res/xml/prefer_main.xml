@@ -1,0 +1,36 @@
+<PreferenceScreen
+    xmlns:android = "http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Category 1">
+        <CheckBoxPreference
+            android:title="Checkbox"
+            android:defaultValue="false"
+            android:summary="True or False"
+            android:key="checkboxPref"
+            ></CheckBoxPreference>
+        </PreferenceCategory>
+    <PreferenceCategory android:title="Category 2">
+        <EditTextPreference
+            android:title="Edit Text"
+            android:summary="Enter a String"
+            android:defaultValue="[Enter a String here]"
+            android:key="edittextPref"
+            ></EditTextPreference>
+        <RingtonePreference
+            android:title = "Ringtones"
+            android:summary="Select a Ringtone"
+            android:key="ringtonePref"
+            ></RingtonePreference>
+        <PreferenceScreen
+            android:title="Second Preference Screen">
+            android:summary = "Click here to go to second prefernce Screen"
+            android:key = "secondPreferenceScreenPref"
+
+        <EditTextPreference
+            android:summary="Enter a String"
+            android:title="Edit Text(Second Screen)"
+            android:key="secondEditTextPref"
+            ></EditTextPreference>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

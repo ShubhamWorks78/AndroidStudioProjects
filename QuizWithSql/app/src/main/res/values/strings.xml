@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizWithSql</string>
+    <string-array name="MenuItem">
+        <item>Show</item>
+        <item>Delete</item>
+        <item>Update</item>
+    </string-array>
+</resources>

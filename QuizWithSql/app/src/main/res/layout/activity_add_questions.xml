@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/eve"
+    tools:context="com.seals.shubham.quizwithsql.AddQuestions">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:background="#ff151515"
+        android:orientation="vertical"
+        android:layout_centerVertical="true" android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:background="@drawable/shape"
+                android:padding="8dp"
+                android:inputType="textPersonName"
+                android:hint="Enter the Question:-"
+                android:ems="10"
+                android:id="@+id/addQuesQ"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" android:layout_marginTop="45dp"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:inputType="textPersonName"
+                android:hint="Option A"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:background="@drawable/shape"
+                android:id="@+id/addQuesA"
+                android:layout_marginTop="17dp"
+                android:layout_below="@+id/addQuesQ" android:layout_alignLeft="@+id/addQuesQ"
+                android:layout_alignStart="@+id/addQuesQ"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:inputType="textPersonName"
+                android:hint="Option B"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/shape"
+                android:ems="10"
+                android:paddingLeft="8dp"
+                android:id="@+id/addQuesB"
+                android:layout_below="@+id/addQuesA" android:layout_alignLeft="@+id/addQuesA"
+                android:layout_alignStart="@+id/addQuesA"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:inputType="textPersonName"
+                android:hint="Option C"
+                android:ems="10"
+                android:paddingLeft="8dp"
+                android:background="@drawable/shape"
+                android:id="@+id/addQuesC" android:layout_below="@+id/addQuesB"
+                android:layout_alignLeft="@+id/addQuesB" android:layout_alignStart="@+id/addQuesB"
+                android:layout_marginTop="17dp"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:inputType="textPersonName"
+                android:hint="Option D"
+                android:ems="10"
+                android:paddingLeft="8dp"
+                android:background="@drawable/shape"
+                android:id="@+id/addQuesD"
+                android:layout_below="@+id/addQuesC" android:layout_alignLeft="@+id/addQuesC"
+                android:layout_alignStart="@+id/addQuesC" android:layout_marginTop="20dp"/>
+            <EditText android:layout_width="150dp" android:layout_height="30dp"
+                      android:inputType="textPersonName"
+                      android:hint="Correct Answer"
+                      android:ems="10"
+                      android:paddingLeft="8dp"
+                      android:background="@drawable/shape"
+                      android:id="@+id/addCorr"
+                      android:layout_above="@+id/btnQuesSub"
+                      android:layout_alignLeft="@+id/addQuesD"
+                      android:layout_alignStart="@+id/addQuesD"/>
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textColor="#ffffffff"
+                android:id="@+id/btnQuesSub"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/shapred"
+                android:layout_alignParentBottom="true" android:layout_alignLeft="@+id/addQuesD"
+                android:layout_alignStart="@+id/addQuesD"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:background="@drawable/shapred"
+                android:textColor="#ffffffff"
+                android:id="@+id/btnQuesBack"
+                android:layout_alignParentBottom="true" android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/bck"
+    tools:context="com.seals.shubham.quizwithsql.FinalResults">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="430dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="25dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/finResCorr"
+                android:textSize="19dp"
+                android:fontFamily="monospace"
+                android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="25dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/finResQuest"
+                android:textSize="19dp"
+                android:fontFamily="monospace"
+                android:layout_alignParentTop="true" android:layout_alignLeft="@+id/finResCorr"
+                android:layout_alignStart="@+id/finResCorr" android:layout_marginTop="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="RESULTS"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textSize="27dp"
+                android:textColor="#098753"
+                android:id="@+id/finResTit"
+                android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="25dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:textSize="19dp"
+                android:fontFamily="monospace"
+                android:id="@+id/finResPerf"
+                android:layout_below="@+id/finResCorr" android:layout_alignLeft="@+id/finResCorr"
+                android:layout_alignStart="@+id/finResCorr" android:layout_marginTop="71dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:background="@drawable/shapred"
+                android:id="@+id/finBtnHome"
+                android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

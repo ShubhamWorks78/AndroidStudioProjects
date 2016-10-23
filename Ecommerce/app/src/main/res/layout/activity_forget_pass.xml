@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/mann"
+    tools:context="com.seals.shubham.ecommerce.ForgetPass">
+    <LinearLayout android:layout_width="300dp" android:layout_height="360dp"
+                  android:layout_centerVertical="true"
+                  android:orientation="vertical"
+                  android:layout_centerHorizontal="true"
+                  android:background="@drawable/layoutdrawable"
+    >
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="#0023ff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Forgot Password!!"
+        />
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="70dp"
+            android:background="#ffff4500"
+            android:layout_marginTop="0dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#567843"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="Enter your Username to Reset your Password"
+            android:textSize="20dp"
+        />
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter your Username"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="20dp"
+        />
+        <Button
+            android:id="@+id/BtnForgTest"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:background="@drawable/buttondrawable"
+            android:textColor="#ffffffff"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:id="@+id/BtnForgBack"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:background="@drawable/buttondrawable"
+            android:textColor="#ffffffff"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homeAndKitch"
+            android:title="Home &amp; Kitchen"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            />
+         </group>
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/MobAndTabs"
+            android:title="Mobiles &amp; Tablets"
+            android:icon="@drawable/ic_stay_current_portrait_black_24dp"
+        />
+    </group>
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/comp"
+            android:title="Computers"
+
+        />
+
+    </group>
+    <group
+        android:id="@+id/grp4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/TvAndAud"
+            android:title="Tv &amp; Audio Appliances"
+            android:icon="@drawable/ic_headset_black_24dp"
+        />
+    </group>
+    <group
+        android:id="@+id/grp5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Clothing"
+            android:title="Clothings"
+        />
+
+    </group>
+    <group
+        android:id="@+id/grp6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Foot"
+            android:title="FootWears"
+        />
+    </group>
+    <group
+        android:id="@+id/grp7"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/BooksAndNov"
+            android:title="Books &amp; Novels"
+
+        />
+    </group>
+    <group
+        android:id="@+id/grp8"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/TravelAndLugg"
+            android:title="Travel &amp; Luggage"
+
+        />
+
+    </group>
+    <group
+        android:id="@+id/grp9"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Auto"
+            android:title="Automotive"
+
+        />
+
+    </group>
+
+</menu>

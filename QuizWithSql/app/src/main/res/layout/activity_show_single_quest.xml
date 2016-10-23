@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/eve"
+    tools:context="com.seals.shubham.quizwithsql.ShowSingleQuest">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:background="#ff151515"
+        android:orientation="vertical"
+        android:layout_centerVertical="true" android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textColor="#ffffff"
+                android:ems="10"
+                android:textSize="15dp"
+                android:id="@+id/shwQuesQ"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" android:layout_marginTop="45dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="12dp"
+                android:paddingLeft="5dp"
+                android:textColor="#ffffff"
+                android:id="@+id/shwQuesA"
+                android:layout_marginTop="35dp"
+                android:layout_below="@+id/shwQuesQ" android:layout_alignLeft="@+id/shwQuesQ"
+                android:layout_alignStart="@+id/shwQuesQ"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:textColor="#ffffff"
+                android:textSize="12dp"
+                android:paddingLeft="8dp"
+                android:id="@+id/shwQuesB"
+                android:layout_below="@+id/shwQuesA" android:layout_alignLeft="@+id/shwQuesA"
+                android:layout_alignStart="@+id/shwQuesA"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#ffffff"
+                android:textSize="12dp"
+                android:paddingLeft="8dp"
+                android:id="@+id/shwQuesC" android:layout_below="@+id/shwQuesB"
+                android:layout_alignLeft="@+id/shwQuesB" android:layout_alignStart="@+id/shwQuesB"
+                android:layout_marginTop="25dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="12dp"
+                android:paddingLeft="8dp"
+                android:id="@+id/shwQuesD"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/shwQuesC" android:layout_alignLeft="@+id/shwQuesC"
+                android:layout_alignStart="@+id/shwQuesC" android:layout_marginTop="25dp"/>
+            <TextView
+                android:layout_width="180dp" android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/shwCorr"
+                android:textColor="#ffffff"
+                android:textSize="12dp"
+                android:layout_below="@+id/shwQuesD" android:layout_alignLeft="@+id/shwQuesD"
+                android:layout_alignStart="@+id/shwQuesD"/>
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="#ffffffff"
+                android:id="@+id/btnShwQuesBck"
+                android:background="@drawable/shapred"
+                android:layout_alignParentBottom="true" android:layout_alignRight="@+id/shwQuesD"
+                android:layout_alignEnd="@+id/shwQuesD"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

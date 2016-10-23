@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1093792308078",
+    "project_id": "myfirstgcmproject-2bfec"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093792308078:android:e34bbf2f59d4b579",
+        "android_client_info": {
+          "package_name": "com.seals.shubham.MyFirstGcmProject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAvBYpMs4zMnUH6ZWTZ3WB0VRq-PeSW3k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

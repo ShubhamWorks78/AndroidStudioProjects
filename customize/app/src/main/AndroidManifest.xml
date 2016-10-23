@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.seals.shubham.customize"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Tourism"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".cysuu"/>
+        <activity android:name=".Akshardham">
+        </activity>
+        <activity android:name=".ConnaughtPlace">
+        </activity>
+        <activity android:name=".HumayunTomb">
+        </activity>
+        <activity android:name=".IndiaGate">
+        </activity>
+        <activity android:name=".JamaMasjid">
+        </activity>
+        <activity android:name=".LotusTemple">
+        </activity>
+        <activity android:name=".RedFort">
+        </activity>
+        <activity android:name=".ParliamentHouse">
+        </activity>
+        <activity android:name=".BanglaSahib">
+        </activity>
+        <activity android:name=".SelectCityWalk">
+        </activity>
+        <activity android:name=".testActivityForScroll">
+        </activity>
+    </application>
+
+</manifest>

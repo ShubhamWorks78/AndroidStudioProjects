@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WebPortal</string>
+    <string-array name="MenuItems">
+        <item>Show</item>
+        <item>Delete</item>
+        <item>Update</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">quizAndUseOfRadio</string>
+    <string name="quest1">Who is the CEO of SpaceX?</string>
+    <string name="opt1">Daniel Zhang</string>
+    <string name="opt2">Alon Musk</string>
+    <string name="opt3">Jeff Bezos</string>
+    <string name="opt4">Even Spiegel</string>
+</resources>

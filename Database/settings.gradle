@@ -1,0 +1,1 @@
+include ':app', ':sharedpreferproject', ':shared', ':contentproviderapplication'
